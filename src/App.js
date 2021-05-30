@@ -3,6 +3,7 @@ import './App.css';
 import SideMenu from "./components/SideMenu";
 import { makeStyles, CssBaseline, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import Header from "./components/Header";
+import  Employees from './components/Employees'
 
 
 const theme = createMuiTheme({
@@ -50,7 +51,7 @@ function App() {
       <div className={classes.appMain}>
         <Header />
 
-
+        <Employees />
       </div>
       <CssBaseline />
     </ThemeProvider>
